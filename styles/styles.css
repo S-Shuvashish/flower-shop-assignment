@@ -70,8 +70,130 @@
     padding: 50px 250px 0px 0px;
 }
 
+/* main section styles */
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
-.footer{
+/* section-1 */
+
+.section-1 {
+    margin-top: 170px;
+    margin-bottom: 130px;
+}
+
+.section-1-title {
+    color: #272727;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.section-1-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.image-with-anchor {
+    display: flex;
+    justify-content: center;
+}
+
+.img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 100px 75px 0px 75px;
+    margin-right: 25px;
+}
+
+.img-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 100px 75px 0px 75px;
+    margin-right: 25px;
+}
+
+.img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 100px 75px 0px 75px;
+    margin-right: 0px;
+}
+
+.caption{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section-3 {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.section-3-images {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+.section-3-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 230px 0px 0px 420px;
+}
+
+span {
+    color: #E55473;
+}
+
+.section-3-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+/* footer section styles */
+.footer {
     background: #111010;
     align-items: center;
     margin: 0;
@@ -79,6 +201,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .footer-title {
     color: #FFF;
     font-size: 48px;
