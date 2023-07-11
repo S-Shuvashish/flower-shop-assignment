@@ -152,8 +152,9 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 200px;
 
 }
 
@@ -199,6 +200,7 @@
     height: 420px;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-left: 250px;
 
 }
 
