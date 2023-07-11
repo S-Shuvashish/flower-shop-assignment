@@ -308,6 +308,7 @@ nav ul li{
 #section-5-align{
     max-width: 1920px;
     margin: 0 auto;
+    padding: auto;
 }
 
 .section-5-container {
@@ -345,6 +346,7 @@ nav ul li{
     margin-top: 15px;
 }
 
+
 .email {
     width: 700px;
     border-radius: 8px;
@@ -371,7 +373,6 @@ nav ul li{
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
-    margin-left: 15px;
 }
 
 /* footer section styles */
